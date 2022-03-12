@@ -18,7 +18,7 @@ def binarySearch(arr, target):
         else:
             right = mid - 1
 
-    # If we reach here, then the element was not present
+    # If we reach here and the element is not present
     return -1
 
 
